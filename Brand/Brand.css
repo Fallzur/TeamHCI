@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 70vw;
+}
+.BgrdB {
+    left: 0vw;
+    width: 98.78vw;
+    height: 40vw;
+    position: absolute;
+    background-color: #0D0D0D ;
+  }
+  .Brand {
+    position: absolute;
+    top: 8vw;
+    left: 43vw;
+    width: 14vw;
+    color: #FFFFFF;
+    font-family: 'Lexend', sans-serif;
+    z-index: 2;
+  }
+
+  /* PASTED */
+
+  .boxD {
+    top: 3.5vw;
+    left: 0vw;
+    width: 98.72vw;
+    height: 0.9vw;
+    position: absolute;
+    background-color: #D9D9D9 ;
+  }
+  .tool3 {
+    position: absolute;
+    z-index: 2;
+    top: 42vw;
+    left: 48vw;
+    width: 2.5vw;
+  }
+  .tool2 {
+    position: absolute;
+    z-index: 2;
+    top: 42vw;
+    left: 38vw;
+    width: 3.5vw;
+  }
+  .tool1 {
+    position: absolute;
+    z-index: 2;
+    top: 42vw;
+    left: 28vw;
+    width: 2.5vw;
+  }
+  .tool4 {
+    position: absolute;
+    z-index: 2;
+    top: 42vw;
+    left: 58vw;
+    width: 3.5vw;
+  }
+  .tool5 {
+    position: absolute;
+    z-index: 2;
+    top: 42vw;
+    left: 68vw;
+    width: 2.5vw;
+  }
+  .logoD {
+    position: absolute;
+    z-index: 2;
+    top: 52vw;
+    left: 5vw;
+    width: 1.5vw;
+  }
+  .logotd
+  {
+      color: #0E0E0E;
+      position: absolute; 
+      left: 7vw; 
+      top: 9vw;
+      z-index: 1;
+      font-weight: bolder;
+      letter-spacing: 2px;
+      font-family: 'Lexend', sans-serif; 
+  }
+  .req {
+    position: absolute;
+    top: 12vw;
+    left: 7vw;
+    width: 24vw;
+    color: #000000;
+    z-index: 1;
+  }
+  .social {
+    position: absolute;
+    top: 9vw;
+    left: 38vw;
+    width: 8vw;
+    color: #838383;
+    z-index: 1;
+  }
+  .Contact {
+    position: absolute;
+    top: 9vw;
+    left: 55vw;
+    width: 8vw;
+    color: #838383;
+    z-index: 1;
+  }
+  .fb {
+    position: absolute;
+    z-index: 2;
+    top: 12vw;
+    left: 37.5vw;
+    width: 2vw;
+  }
+  .twit {
+    position: absolute;
+    z-index: 2;
+    top: 12vw;
+    left: 40.5vw;
+    width: 2vw;
+  }
+  .ig {
+    position: absolute;
+    z-index: 2;
+    top: 12vw;
+    left: 43.5vw;
+    width: 2vw;
+  }
+  .phone {
+    position: absolute;
+    z-index: 2;
+    top: 12vw;
+    left: 54vw;
+    width: 2vw;
+    transform: rotate(340deg);
+  }
+  .dis {
+    position: absolute;
+    z-index: 2;
+    top: 14vw;
+    left: 54vw;
+    width: 1.8vw;
+  }
+  .no {
+    position: absolute;
+    top: 12.5vw;
+    left: 56vw;
+    width: 5vw;
+    color: #B09E31;
+    z-index: 1;
+    text-decoration: underline;
+  }
+  .cord {
+    position: absolute;
+    top: 14.5vw;
+    left: 56.2vw;
+    width: 8vw;
+    color: #B09E31;
+    z-index: 1;
+    text-decoration: underline;
+  }
+  .thank {
+    position: absolute;
+    top: 9vw;
+    left: 69vw;
+    width: 25vw;
+    color: #4E4E4E;
+    z-index: 1;
+    font-weight: 100;
+    letter-spacing:1px ;
+    opacity: 80%;
+  }
+  .boxB {
+    top: 24vw;
+    left: 0vw;
+    width: 98.72vw;
+    height: 3vw;
+    position: absolute;
+    background-color: #0D0D0D ;
+  }
+  .Dtext{
+    color: #FFFFFF;
+    position: absolute; 
+    left: 7vw; 
+    top: 25vw;
+    z-index: 1;
+    font-weight: 200;
+    opacity: 60%;
+    letter-spacing: 2px;
+    font-family: 'Lexend', sans-serif; 
+  }
+  
+  .boxG {
+    top: 40vw;
+    left: 0vw;
+    width: 94.2vw;
+    height: 5vw;
+    padding: 1.3% 2.3%;
+    position: absolute;
+    background-color: #E8E8E8 ;
+  }
