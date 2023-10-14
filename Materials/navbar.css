@@ -191,7 +191,7 @@
 }
 
 #menu.follow-scroll {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
     background: rgba(0, 0, 0, 0.8); /* Slightly transparent black */
 }
 
@@ -207,7 +207,7 @@
     color: #FFFFFF;
     transition: background 0.3s, box-shadow 0.3s;
     z-index: 9999;
-    background: rgba(0, 0, 0, 0.2); /* Slightly transparent black */
+    background: rgba(0, 0, 0, 0.801); /* Slightly transparent black */
 }
 
 #menu.follow-scroll {
