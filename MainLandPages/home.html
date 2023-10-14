@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type = "text/javascript" src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="navbar.css">
-    
+    <link rel="stylesheet" type="text/css" href="loader.css">
+    <script type = "text/javascript" src="loader.js"></script>
+
  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 
@@ -15,6 +18,9 @@
 </head>
 <body>
 
+    <div id="loader-overlay">
+        <div class="spinner"></div>
+    </div>
     
     
 <div>
@@ -23,6 +29,13 @@
 <!-- / SiteSpeakAI -->
 </div>
 
+<div class="search-wrapper">
+    <div class="input-holder">
+        <input type="text" class="search-input" placeholder="Type to search" />
+        <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+    </div>
+    <span class="close" onclick="searchToggle(this, event);"></span>
+</div>
 
 <nav id='menu'>
     <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
@@ -49,8 +62,6 @@
         
 <div class="texthl" style="font-size:4vw" >Most Trusted Shop World Wide</div>
 
-      
-<div class="logotext" style="font-size:1vw">MotoParts</div>
 
 <div class="pnwth" style="font-size:1vw">Partner With:</div>
 
@@ -78,7 +89,12 @@
     </div>
 
     <div class="tzlogo">
-        <img src="./Image/tzlogo.png" style="width:100%"></div>
+        <div class="logo-container">
+            <img src="./Image/tzlogo.png" class="logo-image" alt="Logo">
+            <div class="logotext">MotoParts</div>
+        </div>
+    </div>
+    
 
         <div class="toolp">
             <img src="./Image/spint.png" style="width:100%"></div>
