@@ -302,14 +302,15 @@ body {
     background-color: #E8E8E8 ;
   }
 
+
   .tzlogo {
     position: fixed; /* Change to fixed position */
-    width: 6%;
-    top: -10px; /* Adjust the top position */
-    left: 78%;
+    width: 4.5%;
+    top: -2px; /* Adjust the top position */
+    left: 93%;
     overflow: hidden;
     height: auto;
-    transform: rotate(85deg);
+    transform: rotate(369deg);
     z-index: 99998;
   }
   
@@ -324,11 +325,11 @@ body {
   
   .logotext {
     position: absolute;
-    font-size: 1vw;
+    font-size: 0.8vw;
     display: none;
-    bottom: 2.4vw; /* Adjust as needed */
+    bottom: 1.5vw; /* Adjust as needed */
     left: 0%;
-    transform: rotate(275deg);
+    transform: rotate(-7deg);
     text-align: center;
     background: #ff9b05;
     color: #ffffff;
@@ -338,6 +339,22 @@ body {
     transition: transform 0.3s, opacity 0.3s;
   }
   
+  .ravmot
+  {
+      color: #cb7a00;
+      position: absolute; 
+      left: 80%; 
+      top: 2.3%;
+      z-index: 1;
+      letter-spacing: 2px;
+      z-index: 99999;
+      font-family: 'Lexend', sans-serif; 
+      font-weight: 300; 
+      padding: 0.3vw;
+      height: auto;
+      background-color: #ffffff;
+      border-radius: 10%;
+  }
   /* No change for hover styles */
   
   .logo-container:hover .logo-image {

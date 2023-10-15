@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,37 @@
 <body>
 
     
+    <div class="search-wrapper">
+        <div class="input-holder">
+            <input type="text" class="search-input" placeholder="Type to search" oninput="showSuggestions(this)" />
+            <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+        </div>
+        <span class="close" onclick="searchToggle(this, event);"></span>
+        <div class="suggestions" style="display: none;">
+            <ul>
+                <li><a class="srches" href="/Explores/Explore.html#HowWeDoIt">How We Do It</a></li>
+                <li><a class="srches" href="/Explores/Explore.html#HowWeDoIt">Proof of quality</a></li>
+                <li><a class="srches" href="/Service/Services.html">Quality</a></li>
+                <li><a class="srches" href="/Service/Services.html">How much is the service</a></li>
+                <li><a class="srches" class="srches" href="/Locations/Loc.html">Butuan City</a></li>
+                <li><a class="srches" href="/Locations/Loc.html">Places RaveMoto be found</a></li>
+                <li><a class="srches" href="/Materials/material.html">Durability</a></li>
+                <li><a class="srches" href="/Materials/material.html">Materials</a></li>
+                <li><a class="srches" href="/Materials/material.html">Strength</a></li>
+                <li><a class="srches" href="/Brands/Brand.html">Akrapovic</a></li>
+                <li><a class="srches" href="/Brands/Brand.html">RS8</a></li>
+                <li><a class="srches" href="/Brands/Brand.html">RCB</a></li>
+                <li><a class="srches" href="/Contact/contact.html">Mechanics</a></li>
+                <li><a class="srches" href="/Contact/contact.html">Owner</a></li>
+                <li><a class="srches" href="/Contact/contact.html">Shop Owners</a></li>
+                <li><a class="srches" href="/MainLandPages/home.html">Is this shop legit</a></li>
+                <li><a class="srches" href="/MainLandPages/home.html#bottomOfPage" data-scroll>100% quality check</a></li>
+    
+                
+            </ul>
+        </div>
+    </div>
+    
     <div id="loader-overlay">
         <div class="spinner"></div>
     </div>
@@ -25,17 +57,29 @@
         <ul>
           <li><a href='/MainLandPages/home.html'>Home</a></li>
           <li><a href='/Aboutus/about.html'>About</a></li>
-          <li><a href=''>Promo</a></li>
+          <li><a href='/Promo/promo.html'>Promo</a></li>
           <li><a href='/Service/Services.html'>Services</a></li>
           <li><a href='/Brands/Brand.html'>Brands</a></li>
-          <li><a href='/Explores/Explore.html' class="active">Explore</a></li>
+          <li><a href='' class="active">Explore</a></li>
           <li><a href='/Materials/material.html'>Materials</a></li>
           <li><a href='/Locations/Loc.html'>Locations</a></li>
-          <li><a href=''>Contact</a></li>
+          <li><a href='/Contact/contact.html'>Contact</a></li>
             </ul>
         </nav>
 
         
+        <div class="ravmot" style="font-size:1vw">RaveMoto</div>
+
+        <div class="2ndpart">
+            <div class="video">
+                <video id="autoplayVideo" width="200" height="200" controls autoplay loop>
+                    <source src="./video/exlp.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+     
     <div class="tzlogo">
         <div class="logo-container">
             <img src="./Images/tzlogo.png" class="logo-image" alt="Logo">
@@ -49,9 +93,24 @@
 
 <div class="BgrdE"></div>
 
-<div class="how" style="font-size:2vw">How We Do It</div>
+<div class="how" style="font-size:2vw">How We Do It in RaveMoto</div>
+
+<div class="hows">
+    At RaveMoto, we're committed to delivering top-tier motorcycle brands and products. Here's how we do it:
+    <ul>
+        <li>Careful Selection: We handpick brands known for quality.</li>
+        <li>Rigorous Quality Checks: Stringent testing ensures excellence.</li>
+        <li>Expert Guidance: Our knowledgeable team assists your choices.</li>
+        <li>Customer-Centric Service: Personalized support throughout.</li>
+        <li>Embracing Innovation: We stay ahead with the latest tech.</li>
+        <li>Sustainability: Responsible practices are part of our DNA.</li>
+        <li>Collaborative Approach: Strong partnerships for quality.</li>
+    </ul>
+    Discover quality motorcycles and products at Rave Moto - your trusted destination for excellence on the road.
+</div>
 
 <div class="add" style="font-size:3vw">ADD VIDEO</div>
+
 
 
 <div class="pasted">

@@ -19,19 +19,9 @@ body {
     overflow: hidden;
     height: auto;
     position: absolute; left: 50%;
+    
   }
 
- 
-  .tzlogo {
-    position: absolute;
-    width: 6%;
-    top: -1%;
-    left: 77%;
-    overflow: hidden;
-    height: auto;
-    transform: rotate(86deg);
-    z-index: 99998;
-}
 
 
 .logo-container {
@@ -45,12 +35,12 @@ body {
 
 .tzlogo {
   position: fixed; /* Change to fixed position */
-  width: 6%;
-  top: -10px; /* Adjust the top position */
-  left: 78%;
+  width: 4.5%;
+  top: -2px; /* Adjust the top position */
+  left: 93%;
   overflow: hidden;
   height: auto;
-  transform: rotate(85deg);
+  transform: rotate(369deg);
   z-index: 99998;
 }
 
@@ -65,11 +55,11 @@ body {
 
 .logotext {
   position: absolute;
-  font-size: 1vw;
+  font-size: 0.8vw;
   display: none;
-  bottom: 2.4vw; /* Adjust as needed */
+  bottom: 1.5vw; /* Adjust as needed */
   left: 0%;
-  transform: rotate(275deg);
+  transform: rotate(-7deg);
   text-align: center;
   background: #ff9b05;
   color: #ffffff;
@@ -92,24 +82,26 @@ body {
   opacity: 1;
 }
 
-
-
-
-  .toolp {
-    position: absolute;
-    width: 10%;
-    overflow: hidden;
+.ravmot
+{
+    color: #cb7a00;
+    position: absolute; 
+    left: 80%; 
+    top: 2.3%;
+    z-index: 1;
+    letter-spacing: 2px;
+    z-index: 99999;
+    font-family: 'Lexend', sans-serif; 
+    font-weight: 300; 
+    padding: 0.3vw;
     height: auto;
-    position: absolute; left: 88%; top: 1%;
-    transform: rotate(-10deg);
-    opacity: 50%;
-    top: 10vw;
-  }
-
+    background-color: #ffffff;
+    border-radius: 10%;
+}
 
 .pnwth
 {
-    color: white;
+    color: #fca430;
     position: absolute; 
     left: 7%; 
     top: 77%;
@@ -119,6 +111,41 @@ body {
     font-weight: 100; 
 }
 
+.partone
+{
+  color: rgb(255, 255, 255);
+  position: absolute; 
+  left: 9%; 
+  top: 83.5%;
+  z-index: 1;
+  letter-spacing: 2px;
+  font-family: 'Lexend', sans-serif; 
+  font-weight: 100; 
+}
+
+.parttwo
+{
+  color: white;
+  position: absolute; 
+  left: 34%; 
+  top: 83.5%;
+  z-index: 1;
+  letter-spacing: 2px;
+  font-family: 'Lexend', sans-serif; 
+  font-weight: 100; 
+}
+.partthree
+{
+  color: white;
+  position: absolute; 
+  left: 59%; 
+  top: 83.5%;
+  z-index: 1;
+  letter-spacing: 2px;
+  font-family: 'Lexend', sans-serif; 
+  font-weight: 100; 
+}
+
 /* navbar button *//* navbar button *//* navbar button */
 .vmbut {
     top: 52%;
@@ -126,141 +153,13 @@ body {
     padding: 1.3% 2.3%;
     border-radius: 1vw;
     position: absolute;
-    background-color: rgb(247, 247, 247);
+    background-color: #f7f7f7;
     cursor: pointer;
+    color: #000000;
+    text-decoration: none;
     font-family: 'Lexend', sans-serif;
     border: none;
 }
-
-.btn1 {
-    position: absolute;
-    top: 6%;
-    left: 5%;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    color: white;
-    z-index: 1;
-  
-}
-
-.btn2 {
-    position: absolute;
-    top: 6%;
-    left: 12%;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    color: white;
-    z-index: 1;
-
-}
-
-.btn3 {
-    position: absolute;
-    top: 6%;
-    left: 18%;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    color: white;
-    z-index: 1;
-
-}
-.btn4 {
-  position: absolute;
-  top: 6%;
-  left: 24%;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  color: white;
-  z-index: 1;
-
-}
-.btn5 {
-  position: absolute;
-  top: 6%;
-  left: 30%;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  color: white;
-  z-index: 1;
-
-}
-.btn6 {
-  position: absolute;
-  top: 6%;
-  left: 36%;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  color: white;
-  z-index: 1;
-
-}
-.btn7 {
-  position: absolute;
-  top: 6%;
-  left: 42%;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  color: white;
-  z-index: 1;
-
-}
-.btn8 {
-  position: absolute;
-  top: 6%;
-  left: 48%;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  color: white;
-  z-index: 1;
-
-}
-.btn9 {
-  position: absolute;
-  top: 6%;
-  left: 54%;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  outline: none;
-  color: white;
-  z-index: 1;
-
-}
-
 
 .circle1 {
     position: absolute;
@@ -304,13 +203,20 @@ body {
     opacity: 50%;
   }
 
-.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover,.btn7:hover,.btn8:hover,.btn9:hover{
-    color:  #ff9b05; 
-  }
-
   .vmbut:hover {
     background-color: #ff9b05;
     color: white;
+  }
+
+  .logos
+  {
+  position: fixed; /* Change to fixed position */
+  width: 5%;
+  top: -7px; /* Adjust the top position */
+  left: 93%;
+  overflow: hidden;
+  height: auto;
+  z-index: 99998;
   }
 /* navbar button *//* navbar button *//* navbar button */
 
@@ -370,10 +276,12 @@ body {
   }
   .across {
     position: absolute;
-    top: 60vw;
+    top: 59vw;
     left: 5%;
     width: 80vw;
     color: 0E0E0E;
+    font-family: 'Lexend', sans-serif; 
+    font-weight: 400;
     z-index: 1;
   
 }
@@ -411,10 +319,12 @@ body {
   padding: 1.3% 2.3%;
   border-radius: 1vw;
   position: absolute;
+  color: #fff;
   background-color: rgb(235, 175, 10);
   cursor: pointer;
   font-family: 'Lexend', sans-serif;
   border: none;
+  text-decoration:none;
 }
 .boxC:hover {
   background-color: #ff9b05;
@@ -622,3 +532,141 @@ body {
 }
 
 
+/* popup */
+/* Add the styles for the popup overlay */
+/* Add the styles for the popup overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Start with a transparent background */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  transition: background-color 0.3s; /* Add a transition for the background-color property */
+}
+
+/* Add styles for the popup */
+.popup {
+  background-color: #000000;
+  width: 60vw;
+  height: 40vw;
+  padding: 2vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 2vw;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s;
+  animation: popup-scale 0.3s ease-out;
+
+  /* Add moving glowing border effect */
+  animation: glow 2s infinite alternate; /* Adjust the values as needed */
+}
+
+.tzlogoss {
+  position: absolute;
+  top: 0.5vw;
+  left: 0.5vw;
+  width: 5vw;
+  height: auto;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 8px 3px rgba(255, 255, 255, 0.13);
+  }
+  100% {
+    box-shadow: 0 0 8px 3px rgba(255, 255, 255, 0.336);
+  }
+}
+
+@keyframes popup-scale {
+  0% {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(10);
+    opacity: 1;
+  }
+}
+
+.popup button {
+  display: block;
+  margin: 0 0 2.22vw auto;
+  font-size: 2vw;
+  color: #c5c5c5;
+  border: none;
+  outline: none;
+  background-color: #000000;
+  border-radius: 20vw;
+  padding: 0 0.6vw;
+  cursor: pointer;
+}
+
+/* time */
+
+.container {
+  position: absolute;
+  top: 4vw;
+  right: 7vw;
+  font-size: 1vw;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #fc3030, transparent);
+  background-size: 200% 100%;
+  animation: moveLine 4s linear infinite;
+}
+
+.date {
+  margin-top: 0.2vw;
+  font-size: 0.8vw; /* Adjust the date font size */
+  color: #ffffff;
+}
+
+@keyframes moveLine {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.phmap {
+  position: absolute;
+  width: 20vw;
+  top: 8vw;
+  right: 4vw;
+}
+
+.prom
+{
+  position: absolute;
+  width: 32vw;
+  bottom: 1.5vw;
+  left: 5vw;
+}
+
+.visit
+{
+  position: absolute;
+  width: 32vw;
+  top: 5vw;
+  left: 5vw;
+}

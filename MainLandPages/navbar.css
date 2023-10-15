@@ -260,7 +260,7 @@
     position: fixed; /* Change to 'fixed' to stick to the top */
     top: 2%;
     left: 87%;
-    z-index: 99999; /* Set a high z-index value to appear in front */
+    z-index: 999999; /* Set a high z-index value to appear in front */
 }
 
 .search-wrapper .input-holder {
@@ -274,8 +274,9 @@
 }
 
 .search-wrapper.active .input-holder {
-    width: 140px;
+    width: 250px;
     height: 30px;
+    right: 70%;
     border-radius: 15px;
     background: #ffffffd2;
     transition: all .5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
@@ -381,7 +382,7 @@
 }
 
 .search-wrapper.active .close {
-    right: -30px;
+    right: 150px;
     top: 7px;
     transform: rotate(45deg);
     transition: all 0.6s cubic-bezier(0.000, 0.105, 0.035, 1.570);
@@ -408,3 +409,29 @@
     left: 0px;
     top: 7px;
 }
+
+.search-wrapper .suggestions {
+    position: absolute;
+    top: 2.4vw; /* Position suggestions below the search bar */
+    left: -12vw;
+    width: 100%; /* Match the width of the search bar */
+    background: #ffffffbb; /* Adjust the background color as needed */
+    z-index: 99999;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.search-wrapper.active .suggestions {
+    display: block;
+}
+
+.srches {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.srches:hover {
+    color: #FF9B05;
+}
+
+

@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 70vw;
 }
+
 .BgrdB {
     left: 0vw;
     width: 98.78vw;
@@ -10,10 +11,11 @@ body {
     position: absolute;
     background-color: #0D0D0D ;
   }
+
   .Brand {
     position: absolute;
     top: 8vw;
-    left: 43vw;
+    left: 49%;
     width: 14vw;
     color: #FFFFFF;
     font-family: 'Lexend', sans-serif;
@@ -202,42 +204,59 @@ body {
     background-color: #E8E8E8 ;
   }
 
-  .tzlogo {
-    position: fixed; /* Change to fixed position */
-    width: 6%;
-    top: -10px; /* Adjust the top position */
-    left: 78%;
-    overflow: hidden;
-    height: auto;
-    transform: rotate(85deg);
-    z-index: 99998;
-  }
-  
-  .logo-container {
-    position: relative;
-  }
-  
-  .logo-image {
-    width: 100%;
-    transition: transform 0.3s, filter 0.3s;
-  }
-  
-  .logotext {
-    position: absolute;
-    font-size: 1vw;
-    display: none;
-    bottom: 2.4vw; /* Adjust as needed */
-    left: 0%;
-    transform: rotate(275deg);
-    text-align: center;
-    background: #ff9b05;
-    color: #ffffff;
+ 
+.tzlogo {
+  position: fixed; /* Change to fixed position */
+  width: 4.5%;
+  top: -2px; /* Adjust the top position */
+  left: 93%;
+  overflow: hidden;
+  height: auto;
+  transform: rotate(369deg);
+  z-index: 99998;
+}
+
+.logo-container {
+  position: relative;
+}
+
+.logo-image {
+  width: 100%;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.logotext {
+  position: absolute;
+  font-size: 0.8vw;
+  display: none;
+  bottom: 1.5vw; /* Adjust as needed */
+  left: 0%;
+  transform: rotate(-7deg);
+  text-align: center;
+  background: #ff9b05;
+  color: #ffffff;
+  font-family: 'Lexend', sans-serif; 
+  padding: 2px;
+  border-radius: 5px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.ravmot
+{
+    color: #cb7a00;
+    position: absolute; 
+    left: 80%; 
+    top: 2.3%;
+    z-index: 1;
+    letter-spacing: 2px;
+    z-index: 99999;
     font-family: 'Lexend', sans-serif; 
-    padding: 2px;
-    border-radius: 5px;
-    transition: transform 0.3s, opacity 0.3s;
-  }
-  
+    font-weight: 300; 
+    padding: 0.3vw;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 10%;
+}
   /* No change for hover styles */
   
   .logo-container:hover .logo-image {
@@ -250,3 +269,79 @@ body {
     display: block;
     opacity: 1;
   }
+
+  /* brands */
+
+  .akra {
+    position: absolute;
+    z-index: 0;
+    width: 7%;
+    top: 12vw;
+    overflow: hidden;
+    height: auto;
+    left: 50%;
+  }
+
+  .jvt {
+    position: absolute;
+    z-index: 0;
+    width: 10%;
+    top: 12vw;
+    overflow: hidden;
+    height: auto;
+    left: 15%;
+  }
+
+  .motul {
+    position: absolute;
+    z-index: 0;
+    width: 10%;
+    top: 28vw;
+    overflow: hidden;
+    height: auto;
+    left: 80%;
+  }
+
+  .ngk {
+    position: absolute;
+    z-index: 0;
+    width: 7%;
+    top: 12vw;
+    overflow: hidden;
+    height: auto;
+    left: 80%;
+  }
+
+  .pirelli {
+    position: absolute;
+    z-index: 0;
+    width: 10%;
+    top: 25vw;
+    overflow: hidden;
+    height: auto;
+    left: 55%;
+  }
+
+  .rcb {
+    position: absolute;
+    z-index: 0;
+    width: 10%;
+    top: 25vw;
+    overflow: hidden;
+    height: auto;
+    left: 8%;
+  }
+
+  .rs8 {
+    position: absolute;
+    z-index: 0;
+    width: 10%;
+    top: 25vw;
+    overflow: hidden;
+    height: auto;
+    left: 30%;
+  }
+
+
+
+  

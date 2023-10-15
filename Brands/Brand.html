@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <script type = "text/javascript" src="power.js"></script>
     <script type = "text/javascript" src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="loader.css">
     <script type = "text/javascript" src="loader.js"></script>
- <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="Brand.css">
-<link rel="stylesheet" type="text/css" href="navbar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Brand.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
 
 <body>
 
@@ -21,23 +21,57 @@
         <div class="spinner"></div>
     </div>
     
+    <div class="search-wrapper">
+        <div class="input-holder">
+            <input type="text" class="search-input" placeholder="Type to search" oninput="showSuggestions(this)" />
+            <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+        </div>
+        <span class="close" onclick="searchToggle(this, event);"></span>
+        <div class="suggestions" style="display: none;">
+            <ul>
+                <li><a class="srches" href="/Explores/Explore.html#HowWeDoIt">How We Do It</a></li>
+                <li><a class="srches" href="/Explores/Explore.html#HowWeDoIt">Proof of quality</a></li>
+                <li><a class="srches" href="/Service/Services.html">Quality</a></li>
+                <li><a class="srches" href="/Service/Services.html">How much is the service</a></li>
+                <li><a class="srches" class="srches" href="/Locations/Loc.html">Butuan City</a></li>
+                <li><a class="srches" href="/Locations/Loc.html">Places RaveMoto be found</a></li>
+                <li><a class="srches" href="/Materials/material.html">Durability</a></li>
+                <li><a class="srches" href="/Materials/material.html">Materials</a></li>
+                <li><a class="srches" href="/Materials/material.html">Strength</a></li>
+                <li><a class="srches" href="/Brands/Brand.html">Akrapovic</a></li>
+                <li><a class="srches" href="/Brands/Brand.html">RS8</a></li>
+                <li><a class="srches" href="/Brands/Brand.html">RCB</a></li>
+                <li><a class="srches" href="/Contact/contact.html">Mechanics</a></li>
+                <li><a class="srches" href="/Contact/contact.html">Owner</a></li>
+                <li><a class="srches" href="/Contact/contact.html">Shop Owners</a></li>
+                <li><a class="srches" href="/MainLandPages/home.html">Is this shop legit</a></li>
+                <li><a class="srches" href="/MainLandPages/home.html#bottomOfPage" data-scroll>100% quality check</a></li>
+    
+                
+            </ul>
+        </div>
+    </div>
+    
     
     <nav id='menu'>
         <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
         <ul>
           <li><a href='/MainLandPages/home.html'>Home</a></li>
           <li><a href='/Aboutus/about.html'>About</a></li>
-          <li><a href=''>Promo</a></li>
+          <li><a href='/Promo/promo.html'>Promo</a></li>
           <li><a href='/Service/Services.html'>Services</a></li>
-          <li><a href='/Brands/Brand.html' class="active">Brands</a></li>
+          <li><a href='' class="active">Brands</a></li>
           <li><a href='/Explores/Explore.html'>Explore</a></li>
           <li><a href='/Materials/material.html'>Materials</a></li>
           <li><a href='/Locations/Loc.html'>Locations</a></li>
-          <li><a href=''>Contact</a></li>
+          <li><a href='/Contact/contact.html'>Contact</a></li>
             </ul>
         </nav>
 
         
+        <div class="ravmot" style="font-size:1vw">RaveMoto</div>
+
+     
     <div class="tzlogo">
         <div class="logo-container">
             <img src="./Images/tzlogo.png" class="logo-image" alt="Logo">
@@ -49,8 +83,18 @@
 <script type="text/javascript">(function(){d=document;s=d.createElement("script");s.src="https://sitespeak.ai/chatbots/46bfd0f6-ca8a-47a7-a7c0-7eca42906e35.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 <!-- / SiteSpeakAI -->
 <div class="BgrdB"></div>
+  
+
 
 <div class="Brand" style="font-size:2.2vw">BRANDS</div>
+
+<img src="./brandimages/akra.png" class="akra" alt="Logo">
+<img src="./brandimages/jvt.png" class="jvt" alt="Logo">
+<img src="./brandimages/motul.png" class="motul" alt="Logo">
+<img src="./brandimages/ngk.png" class="ngk" alt="Logo">
+<img src="./brandimages/pirelli.png" class="pirelli" alt="Logo">
+<img src="./brandimages/rcb.png" class="rcb" alt="Logo">
+<img src="./brandimages/rs8.png" class="rs8" alt="Logo">
 
 <div class="pasted">
 
@@ -69,8 +113,6 @@
            
 <div class="boxG"div>
 <div class="boxD"div>
-
-    
 
     <div class="logotd" style="font-size:1.5vw">MotoParts</div> 
     <div class="req" style="font-size:1vw">Our dedicated team is available to assist you with any questions, product inquiries, or support you may need regarding motorcycle parts and accessories. Don't hesitate to contact us; we're here to provide the information and assistance you require."</div>

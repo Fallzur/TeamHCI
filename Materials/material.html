@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,37 @@
 <body>
 
     
+    <div class="search-wrapper">
+        <div class="input-holder">
+            <input type="text" class="search-input" placeholder="Type to search" oninput="showSuggestions(this)" />
+            <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+        </div>
+        <span class="close" onclick="searchToggle(this, event);"></span>
+        <div class="suggestions" style="display: none;">
+            <ul>
+                <li><a class="srches" href="/Explores/Explore.html#HowWeDoIt">How We Do It</a></li>
+                <li><a class="srches" href="/Explores/Explore.html#HowWeDoIt">Proof of quality</a></li>
+                <li><a class="srches" href="/Service/Services.html">Quality</a></li>
+                <li><a class="srches" href="/Service/Services.html">How much is the service</a></li>
+                <li><a class="srches" class="srches" href="/Locations/Loc.html">Butuan City</a></li>
+                <li><a class="srches" href="/Locations/Loc.html">Places RaveMoto be found</a></li>
+                <li><a class="srches" href="/Materials/material.html">Durability</a></li>
+                <li><a class="srches" href="/Materials/material.html">Materials</a></li>
+                <li><a class="srches" href="/Materials/material.html">Strength</a></li>
+                <li><a class="srches" href="/Brands/Brand.html">Akrapovic</a></li>
+                <li><a class="srches" href="/Brands/Brand.html">RS8</a></li>
+                <li><a class="srches" href="/Brands/Brand.html">RCB</a></li>
+                <li><a class="srches" href="/Contact/contact.html">Mechanics</a></li>
+                <li><a class="srches" href="/Contact/contact.html">Owner</a></li>
+                <li><a class="srches" href="/Contact/contact.html">Shop Owners</a></li>
+                <li><a class="srches" href="/MainLandPages/home.html">Is this shop legit</a></li>
+                <li><a class="srches" href="/MainLandPages/home.html#bottomOfPage" data-scroll>100% quality check</a></li>
+    
+                
+            </ul>
+        </div>
+    </div>
+    
     
     <div id="loader-overlay">
         <div class="spinner"></div>
@@ -25,16 +57,19 @@
         <ul>
           <li><a href='/MainLandPages/home.html'>Home</a></li>
           <li><a href='/Aboutus/about.html'>About</a></li>
-          <li><a href=''>Promo</a></li>
+          <li><a href='/Promo/promo.html'>Promo</a></li>
           <li><a href='/Service/Services.html'>Services</a></li>
           <li><a href='/Brands/Brand.html'>Brands</a></li>
           <li><a href='/Explores/Explore.html'>Explore</a></li>
-          <li><a href='/Materials/material.html' class="active">Materials</a></li>
+          <li><a href='' class="active">Materials</a></li>
           <li><a href='/Locations/Loc.html'>Locations</a></li>
-          <li><a href=''>Contact</a></li>
+          <li><a href='/Contact/contact.html'>Contact</a></li>
             </ul>
         </nav>
 
+        <div class="ravmot" style="font-size:1vw">RaveMoto</div>
+     
+     
         
     <div class="tzlogo">
         <div class="logo-container">

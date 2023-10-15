@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type = "text/javascript" src="main.js"></script>
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="navbar.css">
     <link rel="stylesheet" type="text/css" href="loader.css">
     <script type = "text/javascript" src="loader.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
 
  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
@@ -17,6 +24,21 @@
     <title>Hci2_Website</title>
 </head>
 <body>
+
+    <div class="popup-overlay">
+        <div class="popup">
+            <div class="container">
+                <div class="line"></div>
+                <div id="philippine-time">Philippine Time</div>
+                <div class="date" id="current-date"></div>
+              </div>
+            <img class="phmap" src="./Image/phmap.png" alt="Image Alt Text"> 
+            <button id="close">&times;</button>
+            <img class="prom" src="./Image/Prom.png" alt="Image Alt Text"> 
+            <img class="visit" src="./Image/visit.png" alt="Image Alt Text"> 
+            <img class="tzlogoss" src="./Image/tzlogo.png" alt="Image Alt Text"> 
+        </div>
+    </div>
 
     <div id="loader-overlay">
         <div class="spinner"></div>
@@ -31,39 +53,67 @@
 
 <div class="search-wrapper">
     <div class="input-holder">
-        <input type="text" class="search-input" placeholder="Type to search" />
+        <input type="text" class="search-input" placeholder="Type to search" oninput="showSuggestions(this)" />
         <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
     </div>
     <span class="close" onclick="searchToggle(this, event);"></span>
+    <div class="suggestions" style="display: none;">
+        <ul>
+            <li><a class="srches" href="/Explores/Explore.html#HowWeDoIt">How We Do It</a></li>
+            <li><a class="srches" href="/Explores/Explore.html#HowWeDoIt">Proof of quality</a></li>
+            <li><a class="srches" href="/Service/Services.html">Quality</a></li>
+            <li><a class="srches" href="/Service/Services.html">How much is the service</a></li>
+            <li><a class="srches" class="srches" href="/Locations/Loc.html">Butuan City</a></li>
+            <li><a class="srches" href="/Locations/Loc.html">Places RaveMoto be found</a></li>
+            <li><a class="srches" href="/Materials/material.html">Durability</a></li>
+            <li><a class="srches" href="/Materials/material.html">Materials</a></li>
+            <li><a class="srches" href="/Materials/material.html">Strength</a></li>
+            <li><a class="srches" href="/Brands/Brand.html">Akrapovic</a></li>
+            <li><a class="srches" href="/Brands/Brand.html">RS8</a></li>
+            <li><a class="srches" href="/Brands/Brand.html">RCB</a></li>
+            <li><a class="srches" href="/Contact/contact.html">Mechanics</a></li>
+            <li><a class="srches" href="/Contact/contact.html">Owner</a></li>
+            <li><a class="srches" href="/Contact/contact.html">Shop Owners</a></li>
+            <li><a class="srches" href="/MainLandPages/home.html">Is this shop legit</a></li>
+            <li><a class="srches" href="/MainLandPages/home.html#bottomOfPage" data-scroll>100% quality check</a></li>
+
+            
+        </ul>
+    </div>
 </div>
+
 
 <nav id='menu'>
     <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
     <ul>
-      <li><a href='/MainLandPages/home.html' class="active">Home</a></li>
+      <li><a href='' class="active">Home</a></li>
       <li><a href='/Aboutus/about.html'>About</a></li>
-      <li><a href=''>Promo</a></li>
+      <li><a href='/Promo/promo.html'>Promo</a></li>
       <li><a href='/Service/Services.html'>Services</a></li>
       <li><a href='/Brands/Brand.html'>Brands</a></li>
       <li><a href='/Explores/Explore.html'>Explore</a></li>
       <li><a href='/Materials/material.html'>Materials</a></li>
       <li><a href='/Locations/Loc.html'>Locations</a></li>
-      <li><a href=''>Contact</a></li>
+      <li><a href='/Contact/contact.html'>Contact</a></li>
         </ul>
     </nav>
 
+    <div class="ravmot" style="font-size:1vw">RaveMoto</div>
     
-
 
     <div class="Imageshome">
     <div class="homepict">
-
-
-        
+   
 <div class="texthl" style="font-size:4vw" >Most Trusted Shop World Wide</div>
 
 
-<div class="pnwth" style="font-size:1vw">Partner With:</div>
+<div class="pnwth" style="font-size:1vw">Partnership: Click to Visit:</div>
+
+<div class="partners">
+<a class="partone" href='https://www.akrapovic.com/' style="font-size:1.2vw">Akrapovic Philippines</a>
+<a class="parttwo" href='https://www.racingboy.com.ph/mono-shock/' style="font-size:1.2vw">RacingBoy Philippines</a>
+<a class="partthree" href='https://rs8.com.ph/' style="font-size:1.2vw">RS8 philippines</a>
+</div>
 
 <div class="circle1" style="font-size:1.5vw">1</div>
 <div class="circle2" style="font-size:1.5vw">2</div>
@@ -77,7 +127,7 @@
 
 
 
-<button type="button" class="vmbut" style="font-size:1vw" >View More</button>
+<a type="button" class="vmbut" href='/Explores/Explore.html' style="font-size:1vw" >Explore</a>
 
         <img src="./Image/Ducatihomm.jpg" style="width:100%">
       </div>
@@ -96,10 +146,6 @@
     </div>
     
 
-        <div class="toolp">
-            <img src="./Image/spint.png" style="width:100%"></div>
- 
-
         <!-- 2nd Frame here --> 
 
         <div class="2ndcontainer">
@@ -109,7 +155,7 @@
         <div class="across" style="font-size:3.8vw">Across continents, our motorcycle parts set the standard for excellence.</div>
         <div class="what" style="font-size:1.6vw">What sets us apart is a dedication to quality that knows no bounds. Whether you're cruising through the busy streets of New York, exploring the scenic routes of the European countryside, or embarking on an adventure in the heart of Asia, our motorcycle parts have been meticulously crafted to ensure they set the standard for excellence everywhere you ride.</div>
         <div class="our" style="font-size:1vw">Our motorcycle parts redefine excellence, spanning continents to ensure your journey is unmatched. Elevate your ride with us.</div>
-        <div class="boxC"style="font-size:1.5vw">Contact Us</div>
+        <a class="boxC"style="font-size:1.5vw" href='/Contact/contact.html'>Contact Us</a>
         
     </div>  
         
@@ -155,7 +201,9 @@
     </div>
 
 
-
+            
+    <div id="bottomOfPage">This is the bottom of the page content.</div>
 
 </body>
+<script type = "text/javascript" src="main.js"></script>
 </html>
