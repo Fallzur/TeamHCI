@@ -3,52 +3,21 @@ body {
     padding: 0;
     height: 70vw;
 }
-.BgrdE {
+
+.BgrdB {
     left: 0vw;
     width: 98.78vw;
     height: 40vw;
     position: absolute;
-    background-color: #0D0D0D ;
+    background-color: #000000 ;
   }
-  .explrs {
+
+  .Brand {
     position: absolute;
-    top: 7vw;
-    left: 46vw;
+    top: 8vw;
+    left: 43vw;
     width: 14vw;
     color: #FFFFFF;
-    font-family: 'Lexend', sans-serif;
-    z-index: 2;
-  }
-  .how {
-    position: absolute;
-    top: 10vw;
-    left: 7vw;
-    width: 30vw;
-    color: #FFFFFF;
-    font-family: 'Lexend', sans-serif;
-    z-index: 2;
-    color: #ff9b05a1;
-  }
-  .hows {
-    position: absolute;
-    top: 13vw;
-    left: 55vw;
-    width: 40vw;
-    color: #FFFFFF;
-    font-family: 'Lexend', sans-serif;
-    font-weight: 200;
-    z-index: 2;
-    font-size: 1.2vw;
-  }
-  .hows ul li {
-    margin-bottom: 1vw; /* Adjust the margin value as needed */
-}
-  .add {
-    position: absolute;
-    top: 15vw;
-    left: 7vw;
-    width: 14vw;
-    color: #c50808;
     font-family: 'Lexend', sans-serif;
     z-index: 2;
   }
@@ -235,7 +204,7 @@ body {
     background-color: #E8E8E8 ;
   }
 
-  
+ 
 .tzlogo {
   position: fixed; /* Change to fixed position */
   width: 4.5%;
@@ -288,7 +257,6 @@ body {
     background-color: #ffffff;
     border-radius: 10%;
 }
-  
   /* No change for hover styles */
   
   .logo-container:hover .logo-image {
@@ -302,19 +270,78 @@ body {
     opacity: 1;
   }
 
-  
-.video
-{
-  position: absolute;
-  top: 12vw;
-  left: 7vw;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (change this value if needed) */
-  width: 80vw;
-  z-index: 99;
-}
+  /* brands */
 
-.video video {
-  position: absolute;
-  width: 45%;
-  height: 45%;
-}
+  .akra {
+    position: absolute;
+    z-index: 0;
+    width: 7%;
+    top: 12vw;
+    overflow: hidden;
+    height: auto;
+    left: 45%;
+  }
+
+  .jvt {
+    position: absolute;
+    z-index: 0;
+    width: 10%;
+    top: 12vw;
+    overflow: hidden;
+    height: auto;
+    left: 15%;
+  }
+
+  .motul {
+    position: absolute;
+    z-index: 0;
+    width: 10%;
+    top: 28vw;
+    overflow: hidden;
+    height: auto;
+    left: 80%;
+  }
+
+  .ngk {
+    position: absolute;
+    z-index: 0;
+    width: 7%;
+    top: 12vw;
+    overflow: hidden;
+    height: auto;
+    left: 80%;
+  }
+
+  .pirelli {
+    position: absolute;
+    z-index: 0;
+    width: 10%;
+    top: 25vw;
+    overflow: hidden;
+    height: auto;
+    left: 55%;
+  }
+
+  .rcb {
+    position: absolute;
+    z-index: 0;
+    width: 10%;
+    top: 25vw;
+    overflow: hidden;
+    height: auto;
+    left: 8%;
+  }
+
+  .rs8 {
+    position: absolute;
+    z-index: 0;
+    width: 10%;
+    top: 25vw;
+    overflow: hidden;
+    height: auto;
+    left: 30%;
+  }
+
+
+
+  /* Testing of Brand pictures

@@ -6,7 +6,6 @@
     border-radius: 0px;
     position: relative;
     z-index: 9999;
-    left: 0;
 }
 
 #menu ul, #menu li {
@@ -299,7 +298,7 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
-    color: #0a0a0a;
+    color: rgb(10, 10, 10);
     transform: translate(0, 30px);
     transition: all .3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
     transition-delay: 0.3s;
@@ -354,8 +353,8 @@
 .search-wrapper .input-holder .search-icon span::before {
     width: 2px;
     height: 7px;
-    right: 17px;
-    top: 20px;
+    left: 5px;
+    top: 9px;
     border-radius: 1px;
     background: #000000;
 }
@@ -363,8 +362,8 @@
 .search-wrapper .input-holder .search-icon span::after {
     width: 7px;
     height: 7px;
-    right: 12px;
-    top: 10px;
+    left: 1px;
+    top: 0px;
     border-radius: 8px;
     border: 2px solid #020202;
 }
@@ -380,7 +379,6 @@
     transform: rotate(-180deg);
     transition: all 0.3s cubic-bezier(0.285, -0.450, 0.935, 0.110);
     transition-delay: 0.2s;
-
 }
 
 .search-wrapper.active .close {
