@@ -8,7 +8,7 @@ body {
     width: 98.78vw;
     height: 40vw;
     position: absolute;
-    background-color: #b3b3b3 ;
+    background-color: #000000 ;
   }
   .group {
     top: 27.6vw;
@@ -41,7 +41,7 @@ body {
     top: 8.6vw;
     left: 9vw;
     width: 20vw;
-    color: #0E0E0E;
+    color: #ffffff;
     font-family: 'Lexend', sans-serif;
     font-weight: bolder;
     z-index: 2;
@@ -51,7 +51,7 @@ body {
     top: 8.6vw;
     left: 67vw;
     width: 19vw;
-    color: #0E0E0E;
+    color: #ffffff;
     font-family: 'Lexend', sans-serif;
     font-weight: bolder;
     z-index: 2;
@@ -61,7 +61,7 @@ body {
     top: 12.6vw;
     left: 9vw;
     width: 25vw;
-    color: #0E0E0E;
+    color: #ffffff;
     font-family: 'Lexend', sans-serif;
     font-weight: 300%;
     z-index: 2;
@@ -71,7 +71,7 @@ body {
     top: 12.6vw;
     left: 67vw;
     width: 26vw;
-    color: #0E0E0E;
+    color: #ffffff;
     font-family: 'Lexend', sans-serif;
     font-weight: 300%;
     z-index: 2;
@@ -81,7 +81,7 @@ body {
     top: 18.6vw;
     left: 9vw;
     width: 25vw;
-    color: #0E0E0E;
+    color: #ffffff;
     opacity: 50%;
     font-family: 'Lexend', sans-serif;
     font-weight: 500%;
@@ -93,7 +93,7 @@ body {
     top: 18.6vw;
     left: 67vw;
     width: 26vw;
-    color: #0E0E0E;
+    color: #ffffff;
     opacity: 50%;
     font-family: 'Lexend', sans-serif;
     font-weight: 500%;

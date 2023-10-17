@@ -103,12 +103,12 @@ body {
 {
     color: #fca430;
     position: absolute; 
-    left: 7%; 
+    left: 6%; 
     top: 77%;
     z-index: 1;
     letter-spacing: 2px;
     font-family: 'Lexend', sans-serif; 
-    font-weight: 100; 
+    font-weight: 200; 
 }
 
 .partone

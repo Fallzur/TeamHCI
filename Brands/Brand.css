@@ -369,4 +369,38 @@ body {
 
 
 
-  /* Testing of Brand pictures
+  /* Testing of Brand */
+
+  .brndisc
+  {
+    position: absolute;
+    width: 90%;
+    top: 80vw;
+    left: 7%;
+    z-index: 20;
+    color: white;
+    font-weight: 100;
+    font-family: 'Lexend', sans-serif; 
+  }
+  .brndiscs
+  {
+    position: absolute;
+    width: 90%;
+    top: 77vw;
+    left: 7%;
+    z-index: 20;
+    color: white;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif; 
+  }
+  .brndiscse
+  {
+    position: absolute;
+    width: 40%;
+    top: 11vw;
+    left: 32%;
+    z-index: 20;
+    color: white;
+    font-weight: 100;
+    font-family: 'Lexend', sans-serif; 
+  }
